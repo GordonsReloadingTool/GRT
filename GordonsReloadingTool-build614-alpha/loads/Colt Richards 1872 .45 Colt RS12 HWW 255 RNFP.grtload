@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<GordonsReloadingTool>
+  <InnerBallistikInput>
+    <title>.45%20Colt%20%28CIP%29%20.452%20-%20255%20-%20RNFP%20-%20Crimprille%20ReloadSwiss%20RS%2012</title>
+    <caliber>
+      <input name="CaliberName" value=".45%20Colt%20%28CIP%29" unit="" type="string" descr="caliber name" />
+      <input name="oal" value="40.64" unit="mm" type="decimal" descr="cartridge overall length" />
+      <input name="caselen" value="32.1564" unit="mm" type="decimal" descr="case length" />
+      <input name="casevol" value="2.7010244" unit="cm3" type="decimal" descr="case volume" />
+      <input name="Dz" value="11.4554" unit="mm" type="decimal" descr="groove caliber" />
+      <input name="Aeff" value="101.48" unit="mm2" type="decimal" descr="effektive area" />
+      <input name="pMaxZul" value="1100" unit="bar" type="decimal" descr="maximum allowed pressure" />
+      <input name="method" value="Piezo CIP" unit="" type="string" descr="cartridge test method" />
+      <input name="sebert" value="0.75" unit="" type="decimal" descr="Sebert factor" />
+      <input name="ps" value="80" unit="bar" type="decimal" descr="initial gas pressure" />
+      <input name="shotshell" value="false" unit="" type="boolean" descr="true if shotshell" />
+    </caliber>
+    <barrel>
+      <input name="xe" value="203.2" unit="mm" type="decimal" descr="barrel length" />
+    </barrel>
+    <projectile>
+      <input name="ProjectileName" value=".452%20-%20255%20-%20RNFP%20-%20Crimprille" unit="" type="string" descr="projectile name" />
+      <input name="Dbul" value="11.48" unit="mm" type="decimal" descr="projectile diameter" />
+      <input name="mp" value="16.524" unit="g" type="decimal" descr="projectile weight" />
+      <input name="gdepth" value="8.71" unit="mm" type="decimal" descr="bullet seating depth" />
+      <input name="glen" value="17.2" unit="mm" type="decimal" descr="projectile overall length" />
+      <input name="gtailh" value="0" unit="mm" type="decimal" descr="projectile cone length" />
+      <input name="gTailDiaA" value="0" unit="mm" type="decimal" descr="projectile cone smallest diameter" />
+      <input name="gTailDiaB" value="0" unit="mm" type="decimal" descr="projectile cone largest diameter" />
+      <input name="gTailType" value="0" unit="" type="decimal" descr="projectile base type, 0=flatbase, 1=hollowbase, 2=boattail" />
+      <input name="gmaterial" value="0" unit="" type="decimal" descr="projectile material type, 0=default, 1=solid lead, 2=solid brass, 3=solid brass + driving bands" />
+    </projectile>
+    <propellant>
+      <input name="mname" value="ReloadSwiss" unit="" type="string" descr="propellant manufakturer" />
+      <input name="pname" value="RS%2012" unit="" type="string" descr="propellant product name" />
+      <input name="Ba" value="2.5007" unit="" type="decimal" descr="burn coefficient" />
+      <input name="Qex" value="4000" unit="kJ/kg" type="decimal" descr="specific explosive heat" />
+      <input name="k" value="1.2357" unit="" type="decimal" descr="ratio of the specific heat of the gases" />
+      <input name="a0" value="5.2618" unit="" type="decimal" descr="burn coefficient" />
+      <input name="z1" value="0.4388" unit="" type="decimal" descr="burn-up limit z1" />
+      <input name="z2" value="0.8315" unit="" type="decimal" descr="burn-up limit z2" />
+      <input name="pc" value="1600" unit="kg/m3" type="decimal" descr="material density" />
+      <input name="pcd" value="615" unit="kg/m3" type="decimal" descr="bulk density" />
+      <input name="pt" value="21" unit="Cel" type="decimal" descr="propellant temperature" />
+      <input name="mc" value="0.4665522" unit="g" type="decimal" descr="propellant mass" />
+      <input name="laddercnt" value="1" unit="" type="decimal" descr="ladder steps (1 to 10, below 2: disabled)" />
+      <input name="laddermc" value="0.0129598" unit="g" type="decimal" descr="ladder step propellant mass" />
+    </propellant>
+  </InnerBallistikInput>
+</GordonsReloadingTool>
