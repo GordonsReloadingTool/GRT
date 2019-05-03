@@ -1,7 +1,9 @@
 # Gordons Reloading Tool
 
-Dies ist die Projektseite für das GRT. 
+this project site is outdated
 
+try:
+https://www.grtools.de
 https://youtube.com/GordonsReloading
 --------------------------------------------------------------------------------
 
